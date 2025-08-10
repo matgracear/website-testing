@@ -1,0 +1,120 @@
+
+.font1{
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
+  position:absolute;
+  right:0;
+}
+.nav-link{
+  margin-left:15px;
+  margin-right:15px;
+}
+.pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  border-radius:150px;
+  margin-top:50px;
+}
+.figcap{
+  text-align:center;
+}
+.figcap1{
+  margin-top:20px;
+}
+/** About**/
+#about{
+  margin-top:250px;
+}
+.discover-details{
+  display:flex;
+  flex-wrap:wrap;
+}
+.text-about{
+  margin-top:120px;
+}
+.flex-items1{
+  margin-bottom:15px;
+  margin-right:60px;
+}
+.flex-items2{
+  margin-right:30px;
+}
+.flex-items3{
+  margin-right:20px;
+}
+.flex-items4{
+  margin-right:70px;
+}
+/** skills**/
+#skills{
+  margin-top:180px;
+}
+.skill-title{
+  text-align:center;
+  margin-bottom:60px;
+}
+.sub-title-skill{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+/**education**/
+#education{
+  margin-top:180px;
+  margin-bottom:180px;
+}
+.edutitle{
+  text-align:center;
+  margin-bottom:60px;
+}
+#carouselExampleIndicators {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.wenkhai{
+  margin-left:80px;
+}
+/**projects**/
+.card{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+.card-body{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title{
+  min-height: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/**contact**/
+.title5{
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 180px;
+}
+.yes{
+  text-align: center;
+
+}
+.ahhhh{
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 600px){
+  .yes{
+    font-size: 10px;
+  }
+}
